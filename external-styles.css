@@ -1,0 +1,68 @@
+.coe-expand-button{
+    width: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.coe-expand-button:hover span{
+    display:none;
+}
+
+.coe-expand-button:hover {
+    width: 197px;
+    transition: all 0.4s;
+}
+
+.coe-expand-button:hover::after {
+    content:"COMPUTER ENGINEERING";
+}
+
+.se-expand-button{
+    width: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.se-expand-button:hover span{
+    display:none;
+}
+
+.se-expand-button:hover {
+    width: 174px;
+    transition: all 0.4s;
+}
+
+.se-expand-button:hover::after {
+    content:"SYSTEM ENGINEERING";
+}
+
+.centered {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+.boxshadow{
+    box-shadow: 8px 10px;
+  }
+
+  .boxshadow:hover{
+    box-shadow: 15px 17px;
+    position: relative; 
+    top: -5px;
+    left: -5px;
+    transition: 0.2s;
+  }
+
+  #search{
+    transform: translate(0, -100%);
+    transition: transform 0.2s cubic-bezier(.28,.46,.67,.78);
+  }
+
+  #navmenu{
+    transform: translate(0, -100%);
+    transition: transform 0.2s cubic-bezier(.28,.46,.67,.78);
+  }
+
+  .peopleimgsize{
+      height: 25rem;
+  }
